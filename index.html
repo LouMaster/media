@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Media Salesiano</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+        <meta name="description" content="Calcule sua média">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="center">
+            <div class="subject">
+                <p>Matemática</p>
+                <input id="mat" type="number" placeholder="Nota" />
+            </div>
+            <div class="subject">
+                <p>Ciências da Natureza</p>
+                <input id="nat" type="number" placeholder="Nota" />
+            </div>
+            <div class="subject">
+                <p>Ciências Humanas</p>
+                <input id="hum" type="number" placeholder="Nota" />
+            </div>
+            <div class="subject">
+                <p>Linguagens</p>
+                <input id="ling" type="number" placeholder="Nota" />
+            </div>
+            <div class="subject">
+                <p>Redação</p>
+                <input id="red" type="number" placeholder="Nota" />
+            </div>
+            <div class="subject">
+                <p>Ensino Religioso</p>
+                <input id="ens" type="number" placeholder="Nota" />
+            </div>
+        </div>
+        <div class="info">
+                <button id="calc">Calcular</button>
+                <div class="nota">Sua nota: <span id="nota">0</span></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="main.js?v=133424133" async defer></script>
+    </body>
+</html>

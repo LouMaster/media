@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center .subject {
+    margin-left: 10px;
+}
+.subject input {
+    padding: 10px 15px;
+    outline: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 2px;
+    transition: box-shadow .5s ease;
+}
+input:hover {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.45);
+}
+.info {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    padding: 15px 20px;
+    background-color: blue;
+    border-radius: 4px;
+    outline: 0;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.nota {
+    display: flex;
+    align-items: center;
+}
+.nota span {
+    font-size: 30px;
+    margin-left: 5px;
+}
